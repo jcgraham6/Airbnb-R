@@ -202,11 +202,5 @@ ggplot(df %>% subset(availability_365<366 | price<1000),aes(x=availability_365,y
 
 
 
-T#Summary
+#Summary
 summary(relation)
-
-
-
-#What does the availability 365 column look like
-summary(df$availability_365)
-
